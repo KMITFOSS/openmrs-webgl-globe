@@ -67,3 +67,14 @@ xhr.onreadystatechange = function() {
 // Begin request
 xhr.send( null );
 ```
+
+**Wanna know some more regarding openmrs?**
+
+**OpenMRS**
+- OpenMRS is a collaborative open source project to develop software to support the delivery of health care in developing countries
+- [OpenMRS](http://openmrs.org)
+
+**OpenMRS Atlas**
+- The OpenMRS Atlas is a website on which members of the OpenMRS Community can register their site(s).  The Atlas serves not only to let the world know about your site, but also help sites to discover other implementations in their region. 
+- [OpenMRS Atlas](http://atlas.openmrs.org)
+
