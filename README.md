@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/KMITFOSS/openmrs-webgl-globe.svg?branch=master)](https://travis-ci.org/KMITFOSS/openmrs-webgl-globe)
+
 The **OpenMRS WebGL Globe** is a fork from chromeexperiments to visualize openrms implementers data provided at openmrs atlas. 
 
 Check out the examples at http://www.chromeexperiments.com/globe, and if you create a globe, please [share it with us](http://www.chromeexperiments.com/submit). We post our favorite globes publicly.
