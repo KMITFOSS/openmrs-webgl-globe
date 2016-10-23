@@ -4,7 +4,8 @@
   "description": "The OpenMRS WebGL Globe is a fork from chromeexperiments to visualize openrms implementers data provided at openmrs atlas.",
   "main": "index.js",
   "scripts": {
-    "test": "npm test"
+    "test": "npm test",
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
