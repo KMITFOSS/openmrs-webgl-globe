@@ -68,6 +68,17 @@ xhr.onreadystatechange = function() {
 xhr.send( null );
 ```
 
+# Starting a local development server
+
+```
+npm install
+npm start
+```
+
+Navigate to http://localhost:3000 to see the demo.
+
+Tested with Node 5.7 and npm 3.6.
+
 **Wanna know some more regarding openmrs?**
 
 **OpenMRS**
