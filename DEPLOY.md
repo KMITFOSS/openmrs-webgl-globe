@@ -16,9 +16,9 @@
 10. Do not overwrite ./index.html, use N and push Enter
 11. Now your firebase initialization is complete!
 12. To deploy, run firebase deploy on command line
-  1. This will create a firebase.json file
+  1. This will create a firebase.json, 404.html, and .firebasesrc file
   2. The output on your command line will provide the hosting site
 13. Either copy and paste the Hosting Site in your browser, or run firebase open in your command line
   1. If you used firebase open, use your arrow keys to navigate to 'Hosting: Deployed Site' and press Enter
 
-Congratulations, your site is now deployed to firebase! 
+Congratulations, your site is now deployed to firebase!
