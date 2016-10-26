@@ -88,14 +88,34 @@ Tested with Node 5.7 and npm 3.6.
 touch procfile
 nano procfile
 ```
-type: web: node index.js
-
-2. Follow the steps on the website to install heroku-cli
-https://devcenter.heroku.com/articles/getting-started-with-nodejs#set-up
-
-3. After adding the heroku remote on your local repo & creating an empty Node app on heroku-
+2. Add this line to the procfile-
 ```
+web: node index.js
+```
+
+3. Follow the steps on the website to download heroku-cli
+https://devcenter.heroku.com/articles/getting-started-with-nodejs#set-up after that
+```
+heroku login
+```
+
+4. In the terminal go to your repo or clone it & cd into it
+```
+git clone https://github.com/Foo/Bar.git
+cd Bar
+```
+
+5. Create a heroku app, a random name gets generated & its git remote is added
+
+```
+heroku create
+
 git push heroku master
+```
+
+6. To view your app
+```
+heroku open
 ```
 
 
