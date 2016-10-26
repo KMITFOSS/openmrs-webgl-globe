@@ -81,6 +81,25 @@ Navigate to http://localhost:3000 to see the demo.
 
 Tested with Node 5.7 and npm 3.6.
 
+# Deploy to Heroku
+
+1. Create a Procfile
+```
+touch procfile
+nano procfile
+```
+type: web: node index.js
+
+2. Follow the steps on the website to install heroku-cli
+https://devcenter.heroku.com/articles/getting-started-with-nodejs#set-up
+
+3. After adding the heroku remote on your local repo & creating an empty Node app on heroku-
+```
+git push heroku master
+```
+
+
+
 **Wanna know some more regarding openmrs?**
 
 **OpenMRS**
