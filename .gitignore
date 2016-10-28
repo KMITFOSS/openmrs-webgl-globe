@@ -2,3 +2,10 @@
 .idea/
 node_modules
 npm-debug.log
+/.firebaserc
+/404.html
+/firebase.json
+.firebaserc
+404.html
+CONTRIBUTING.md~
+firebase.json
