@@ -3,5 +3,5 @@
 - clone from there and to run it locally ` python -m SimpleHTTPServer` 
 - fire up your browser and head to 0.0.0.0:8000/
 
-If you like the repo -give me a star :-)
+If you like the repo -give me a star  :-)
 
