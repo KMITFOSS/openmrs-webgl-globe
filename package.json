@@ -1,0 +1,28 @@
+{
+  "name": "openmrs-webgl-globe",
+  "version": "1.0.0",
+  "description": "The OpenMRS WebGL Globe is a fork from chromeexperiments to visualize openrms implementers data provided at openmrs atlas.",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KMITFOSS/openmrs-webgl-globe.git"
+  },
+  "keywords": [
+    "OpenGL",
+    "OpenNMRS",
+    "Globe"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KMITFOSS/openmrs-webgl-globe/issues"
+  },
+  "homepage": "https://github.com/KMITFOSS/openmrs-webgl-globe#readme",
+  "dependencies": {
+    "express": "^4.13.4"
+  }
+}

@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/KMITFOSS/openmrs-webgl-globe.svg?branch=master)](https://travis-ci.org/KMITFOSS/openmrs-webgl-globe)
+
 The **OpenMRS WebGL Globe** is a fork from chromeexperiments to visualize openrms implementers data provided at openmrs atlas. 
 
 Check out the examples at http://www.chromeexperiments.com/globe, and if you create a globe, please [share it with us](http://www.chromeexperiments.com/submit). We post our favorite globes publicly.
@@ -67,6 +69,56 @@ xhr.onreadystatechange = function() {
 // Begin request
 xhr.send( null );
 ```
+
+# Starting a local development server
+
+```
+npm install
+npm start
+```
+
+Navigate to http://localhost:3000 to see the demo.
+
+Tested with Node 5.7 and npm 3.6.
+
+# Deploy to Heroku
+
+1. Create a Procfile
+```
+touch procfile
+nano procfile
+```
+2. Add this line to the procfile-
+```
+web: node index.js
+```
+
+3. Follow the steps on the website to download heroku-cli
+https://devcenter.heroku.com/articles/getting-started-with-nodejs#set-up after that
+```
+heroku login
+```
+
+4. In the terminal go to your repo or clone it & cd into it
+```
+git clone https://github.com/Foo/Bar.git
+cd Bar
+```
+
+5. Create a heroku app, a random name gets generated & its git remote is added
+
+```
+heroku create
+
+git push heroku master
+```
+
+6. To view your app
+```
+heroku open
+```
+
+
 
 **Wanna know some more regarding openmrs?**
 
