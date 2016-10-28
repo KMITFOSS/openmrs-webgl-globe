@@ -22,3 +22,10 @@
   1. If you used firebase open, use your arrow keys to navigate to 'Hosting: Deployed Site' and press Enter
 
 Congratulations, your site is now deployed to firebase!
+
+If you have made changes to your code and want to update your deployed site:
+
+1. Push all changes to github
+2. Run firebase deploy on the command line
+
+All of your changes should now be up on your deployed site!
